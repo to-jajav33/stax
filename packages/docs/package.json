@@ -1,0 +1,43 @@
+{
+  "name": "@stax/docs",
+  "version": "0.0.0",
+  "description": "Documentation for Stax Open Source application.",
+  "keywords": [
+    "Stax",
+    "Card",
+    "Game",
+    "Simulator"
+  ],
+  "author": "jajav33 <to.jajav33@gmail.com>",
+  "homepage": "https://github.com/to-jajav33/stax/packages/docs/",
+  "license": "MIT",
+  "main": ".vuepress/dist/index.html",
+  "directories": {
+    "lib": ".vuepress/dist"
+  },
+  "files": [
+    ".vuepress/dist"
+  ],
+  "publishConfig": {
+    "access": "public"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/to-jajav33/stax.git"
+  },
+  "scripts": {
+    "build": "vuepress build docs",
+    "dev:watch": "npx vuepress dev",
+    "test": "echo \"No need to run docs test\" && exit 0"
+  },
+  "bugs": {
+    "url": "https://github.com/to-jajav33/stax/issues"
+  },
+  "devDependencies": {
+    "vuepress": "^0.14.10"
+  },
+  "dependencies": {
+    "webpack-dev-middleware": "^3.6.0",
+    "webpack-serve": "^2.0.3"
+  }
+}
