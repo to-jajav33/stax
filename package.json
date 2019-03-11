@@ -2,6 +2,19 @@
   "name": "root",
   "private": true,
   "devDependencies": {
-    "lerna": "^3.13.1"
+    "commitizen": "^3.0.7",
+    "cz-lerna-changelog": "^2.0.2",
+    "lerna": "^3.13.1",
+    "lerna-semantic-release": "^9.1.0"
+  },
+  "dependencies": {},
+  "config": {
+    "commitizen": {
+      "path": "./node_modules/cz-lerna-changelog"
+    }
+  },
+  "scripts": {
+    "commit": "npx git-cz",
+    "git-cz": "npx git-cz"
   }
 }
