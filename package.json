@@ -15,6 +15,7 @@
   },
   "scripts": {
     "commit": "npx git-cz",
-    "git-cz": "npx git-cz"
+    "git-cz": "npx git-cz",
+    "semantic-release": "npx lerna-semantic-release pre && npx lerna-semantic-release perform && npx lerna-semantic-release post"
   }
 }
