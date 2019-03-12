@@ -20,6 +20,10 @@ body {
 	background-color: $bodyBgColor
 }
 
+.home .hero .action-button {
+	color: $bodyBgColor;
+}
+
 .navbar {
 	background-color: $bodyBgColor !important;
 }
@@ -28,7 +32,11 @@ body {
 }
 
 .search-box input {
-	color: darken($textColor, 10);
+	color: lighten($bodyBgColor, 20);
+}
+
+.search-box input:focus {
+	border-color: lighten($bodyBgColor, 20);
 }
 
 .sidebar {

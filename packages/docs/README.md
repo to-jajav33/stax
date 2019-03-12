@@ -1,6 +1,6 @@
 ---
 home: true
-heroText: Stax
+heroText: CardStax
 tagline: Card Game Simulator
 actionText: Find out more
 actionLink: /
@@ -9,5 +9,5 @@ features:
   details: Don't be held back from having to print out new cards, just create them here and test them out ASAP!
 - title: Live testing with friends and family
   details: Friends and family aren't around?? No worries, have them connect remotely.
-footer: Stax... Developed by Cold Mountain Entertainment, Inc. Documentation... Developed using VuePress by William Imoh
+footer: CardStax... Developed by Cold Mountain Entertainment, Inc. Documentation... Developed using VuePress by William Imoh
 ---
