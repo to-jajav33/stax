@@ -7,7 +7,9 @@
     "lerna": "^3.13.1",
     "lerna-semantic-release": "^9.1.0"
   },
-  "dependencies": {},
+  "dependencies": {
+    "npm": "^6.9.0"
+  },
   "config": {
     "commitizen": {
       "path": "./node_modules/cz-lerna-changelog"
